@@ -3,7 +3,7 @@
 
 ## DEMO
 
-[samples/index.html](./samples/index.html)
+[samples/index.html](https://mkosaka.github.io/Simple-Wheel/samples/index.html)
 
 
 ## INSTALL
