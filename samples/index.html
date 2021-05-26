@@ -27,36 +27,53 @@
         margin:50px 0;
     }
 
+    
+
+
     #single{
         width:150px;
         height:100px;
+        font-size: 22px;
     }
+
+
 
 
 
     #group-01{
         width:200px;
-        height:180px;
+        height:120px;
     }
-
     #group-01 #hour{
         width: 45%;
     }
     #group-01 #minute{
         width: 45%;
     }
-    
     #group-01 #separator{
         width: 10%;
     }
 
 
 
+
+    #clock{
+        height:100px;
+    }
     #clock > div{
         padding-left: 5px;
         padding-right: 5px;
+
+        font-size: 22px;
+    }
+    #clock .selected{
+        color: rgb(248, 100, 125);
     }
 
+    #clock .simple-wheel-separator{
+        color: rgb(71, 71, 71);
+        font-size: 20px;
+    }
 
 
 </style>
@@ -221,7 +238,7 @@
             <li>23</li>
         </ul>
     </div>
-    <div id="separator" class="simple-wheel-separator">:</div>
+    <div class="simple-wheel-separator">h</div>
     <div id="c_min" class="simple-wheel">
         <ul>
 
@@ -288,7 +305,7 @@
 
         </ul>
     </div>
-    <div id="separator" class="simple-wheel-separator">:</div>
+    <div class="simple-wheel-separator">m</div>
     <div id="c_sec" class="simple-wheel">
         <ul>
             <li>00</li>
@@ -354,6 +371,7 @@
 
         </ul>
     </div>
+    <div class="simple-wheel-separator">s</div>
 </div>
 
 
