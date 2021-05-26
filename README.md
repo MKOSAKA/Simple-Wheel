@@ -3,10 +3,10 @@
 
 ## DEMO
 
-[samples/sample.html](./samples/sample.html)
+[samples/index.html](./samples/index.html)
 
 
-##INSTALL
+## INSTALL
 ```html
 <!-- simple wheel needs jQuery -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -15,7 +15,7 @@
 <script src="./lib/simple_wheel/js/simple_wheel.min.js"></script>
 ```
 
-##USAGE
+## USAGE
 Simpl-Wheel needs to have `class="simple_wheel"`.
 ```javascript
 <!-- single wheel -->
@@ -55,14 +55,14 @@ Simpl-Wheel needs to have `class="simple_wheel"`.
 ```
 
 
-##Fucntions
+## Fucntions
 
 All functions need a prefix `__SW__`.
 
 
 
 
-#####Programatic Selection of List Item
+##### Programatic Selection of List Item
 ```javascript
 __SW__.selectListItemForIndex({
     index:3,
@@ -75,14 +75,14 @@ __SW__.selectListItemForIndex({
 ```
 
 
-#####Get index and values of selected list items.
+##### Get index and values of selected list items.
 ```javascript
 const selectedItem = __SW__.getIndexAndValOfSelectedListItem('hour');
 console.log(selectedItem.index);    // ex:3
 console.log(selectedItem.value);    // ex:'AM04'
 ```
 
-##Event
+## Event
 
 Simple Wheel occurs event `"select"`.
 ```javascript
@@ -93,7 +93,7 @@ wheel.addEventListener("select", function(e){
 ```
 
 
-##Design
+## Design
 You can cahange Style like bellow.
 
 ```html
