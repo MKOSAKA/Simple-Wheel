@@ -1,8 +1,8 @@
 
-# Simple Wheel
+# Simple Wheel Picker
 
 ## DEMO
-- [samples/index.html](https://mkosaka.github.io/Simple-Wheel/samples/index.html)
+- [samples/index.html](https://mkosaka.github.io/Simple-Wheel-Picker/samples/index.html)
 - [pppark.com](https://pppark.com/) (using for selection the datetime to park. **ONLY JAPANESE**)
 
 
@@ -11,12 +11,12 @@
 <!-- simple wheel needs jQuery -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-<link rel="stylesheet" href="./lib/simple_wheel/css/simple_wheel.min.css">
-<script src="./lib/simple_wheel/js/simple_wheel.min.js"></script>
+<link rel="stylesheet" href="./css/simple-wheel-picker.min.css">
+<script src="./js/simple-wheel-picker.min.js"></script>
 ```
 
 ## USAGE
-Simpl-Wheel needs to have `class="simple_wheel"`.
+Simpl-Wheel-Picker needs to have `class="simple_wheel"`.
 ```javascript
 <!-- single wheel -->
 <div class="simple_wheel">
