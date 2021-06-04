@@ -2,7 +2,7 @@
 # Simple Wheel Picker
 
 ## DEMO
-- [samples/index.html](https://mkosaka.github.io/Simple-Wheel-Picker/samples/index.html)
+- [samples/index.html](https://mkosaka.github.io/jquery-simple-wheel-picker/samples/index.html)
 - [pppark.com](https://pppark.com/) (using for selection the datetime to park. **ONLY JAPANESE**)
 
 
@@ -11,8 +11,8 @@
 <!-- simple wheel needs jQuery -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-<link rel="stylesheet" href="./css/simple-wheel-picker.min.css">
-<script src="./js/simple-wheel-picker.min.js"></script>
+<link rel="stylesheet" href="./css/jquery-simple-wheel-picker.min.css">
+<script src="./js/jquery-simple-wheel-picker.min.js"></script>
 ```
 
 ## USAGE

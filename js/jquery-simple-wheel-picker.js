@@ -1,5 +1,5 @@
 /*!
- * simple-wheel-picker v1.0.0
+ * jquery-simple-wheel-picker v1.0.0
  * Copyright 2021 Kuniyuki Masuo
  */
 
